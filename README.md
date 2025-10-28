@@ -12,7 +12,7 @@ University of Arkansas
 December 2023
 
 **Thesis Committee:**
-- Dr. Michelle A. Evans-White (Director)
+- Dr. Michelle A. Evans-White (Main advisor)
 - Dr. Daniel Magoulick
 - Dr. Kusum Naithani
 - Dr. Mary Savin
