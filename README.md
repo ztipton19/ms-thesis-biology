@@ -144,8 +144,8 @@ Retrieved from https://scholarworks.uark.edu/etd/5103
 ## 🔗 Related Links
 
 - [University of Arkansas ScholarWorks](https://scholarworks.uark.edu/)
-- [Arkansas Wildlife Action Plan](https://www.agfc.com/en/resources/arkansas-wildlife-action-plan/)
 - [Evans-White Lab Website](https://mevanswh.uark.edu/)
+- [Arkansas Wildlife Action Plan]((https://www.agfc.com/education/arkansas-wildlife-action-plan/))
 
 ---
 
