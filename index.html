@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zachary Tipton - M.S. Thesis in Biology</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin: 5px 0;
+        }
+        
+        .author-info {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            padding: 30px;
+            background: #f8f9fa;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .abstract-section {
+            padding: 40px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .abstract-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .abstract-section p {
+            color: #555;
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+        
+        .highlights {
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .highlights h2 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+        
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .highlight-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .highlight-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .highlight-card p {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .pdf-viewer {
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .pdf-viewer h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9em;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .keyword-tag {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            iframe {
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Patterns in Winter Stonefly Distribution Along a River Continuum and Land-Use Gradient in Northwest Arkansas Streams</h1>
+            <div class="author-info">
+                <p><strong>Zachary Tipton</strong></p>
+                <p>Master of Science in Biology</p>
+                <p>University of Arkansas | December 2023</p>
+            </div>
+        </header>
+        
+        <div class="button-group">
+            <a href="https://scholarworks.uark.edu/cgi/viewcontent.cgi?article=6656&context=etd" 
+               target="_blank" 
+               class="btn btn-primary">
+                📄 View on ScholarWorks@UARK
+            </a>
+            <a href="https://github.com/yourname/ms-thesis-biology" 
+               target="_blank" 
+               class="btn btn-secondary">
+                🔗 GitHub Repository
+            </a>
+        </div>
+        
+        <div class="abstract-section">
+            <h2>Abstract</h2>
+            <p>
+                Freshwater ecosystems are facing a crisis with extinction rates of aquatic species 
+                exceeding those of their terrestrial counterparts by up to fivefold. This study examines 
+                the distribution and habitat requirements of winter stonefly species (<em>Allocapnia</em> spp.) 
+                across three major river systems in Northwest Arkansas—one of the fastest-growing regions 
+                in the United States. Through intensive field sampling at 22 sites during two winter seasons 
+                (2020-2022), I identified critical land-use thresholds that significantly impact stonefly 
+                species richness and assessed the conservation status of three Species of Greatest Conservation Need.
+            </p>
+        </div>
+        
+        <div class="highlights">
+            <h2>Research Highlights</h2>
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <h3>📊 Study Scale</h3>
+                    <p>22 sampling sites, 2 winter seasons, average 10 visits per site, over 5,000 specimens collected</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🌲 Forest Threshold</h3>
+                    <p>Species richness declines below 64.3% forest cover in watersheds</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🏙️ Urban Impact</h3>
+                    <p>No Allocapnia found at sites with >8.56% urban land use</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🔬 Conservation Status</h3>
+                    <p>A. warreni likely extirpated; A. ozarkana rare; A. jeanae expanded range</p>
+                </div>
+            </div>
+            
+            <div class="keywords">
+                <span class="keyword-tag">freshwater ecology</span>
+                <span class="keyword-tag">conservation biology</span>
+                <span class="keyword-tag">land use change</span>
+                <span class="keyword-tag">threshold analysis</span>
+                <span class="keyword-tag">Plecoptera</span>
+                <span class="keyword-tag">biodiversity</span>
+                <span class="keyword-tag">stream ecology</span>
+            </div>
+        </div>
+        
+        <div class="pdf-viewer">
+            <h2>📖 Read the Full Thesis</h2>
+            <iframe 
+                src="https://scholarworks.uark.edu/cgi/viewcontent.cgi?article=6656&context=etd" 
+                title="Master's Thesis PDF"
+                allowfullscreen>
+                <p>Your browser does not support iframes. 
+                   <a href="https://scholarworks.uark.edu/cgi/viewcontent.cgi?article=6656&context=etd">
+                       Click here to view the thesis PDF
+                   </a>
+                </p>
+            </iframe>
+        </div>
+        
+        <footer>
+            <p><strong>Funding:</strong> State Wildlife Grants Program (Grant #AR-T-F19AF01234) of the U.S. Fish and Wildlife Service</p>
+            <p style="margin-top: 15px;">
+                <a href="https://github.com/yourname">GitHub</a> | 
+                <a href="https://linkedin.com/in/yourname">LinkedIn</a> | 
+                <a href="mailto:your.email@example.com">Contact</a>
+            </p>
+            <p style="margin-top: 15px; font-size: 0.85em; opacity: 0.8;">
+                © 2023 Zachary Tipton | University of Arkansas
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
