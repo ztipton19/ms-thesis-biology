@@ -145,7 +145,7 @@ Retrieved from https://scholarworks.uark.edu/etd/5103
 
 - [University of Arkansas ScholarWorks](https://scholarworks.uark.edu/)
 - [Arkansas Wildlife Action Plan](https://www.agfc.com/en/resources/arkansas-wildlife-action-plan/)
-- [Evans-White Lab Website](https://fulbright.uark.edu/departments/biological-sciences/people/faculty/uid/mevansw/name/Michelle+Evans-White/) *(if available)*
+- [Evans-White Lab Website]([https://fulbright.uark.edu/departments/biological-sciences/people/faculty/uid/mevansw/name/Michelle+Evans-White/](https://mevanswh.uark.edu/))
 
 ---
 
